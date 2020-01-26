@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Net;
-using System.Runtime.Remoting;
+//using System.Runtime.Remoting;
 using System.Runtime.Serialization;
 
 namespace EasyHttp.Http.Abstractions
@@ -19,6 +19,6 @@ namespace EasyHttp.Http.Abstractions
         Stream GetResponseStream();
         object GetLifetimeService();
         object InitializeLifetimeService();
-        ObjRef CreateObjRef(Type requestedType);
+        //ObjRef CreateObjRef(Type requestedType);
     }
 }

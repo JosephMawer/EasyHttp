@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Net.Cache;
 using System.Net.Security;
-using System.Runtime.Remoting;
+//using System.Runtime.Remoting;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 
@@ -163,10 +163,10 @@ namespace EasyHttp.Http.Abstractions
             return _innerRequest.InitializeLifetimeService();
         }
 
-        public ObjRef CreateObjRef(Type requestedType)
-        {
-            return _innerRequest.CreateObjRef(requestedType);
-        }
+        //public ObjRef CreateObjRef(Type requestedType)
+        //{
+        //    return _innerRequest.CreateObjRef(requestedType);
+        //}
 
         #endregion
     }
