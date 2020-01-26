@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Net;
-using System.Runtime.Remoting;
+//using System.Runtime.Remoting;
 
 namespace EasyHttp.Http.Abstractions
 {
@@ -28,6 +28,6 @@ namespace EasyHttp.Http.Abstractions
         string GetResponseHeader(string headerName);
         object GetLifetimeService();
         object InitializeLifetimeService();
-        ObjRef CreateObjRef(Type requestedType);
+        //ObjRef CreateObjRef(Type requestedType);
     }
 }

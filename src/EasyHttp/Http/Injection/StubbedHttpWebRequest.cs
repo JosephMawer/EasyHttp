@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Net.Cache;
 using System.Net.Security;
-using System.Runtime.Remoting;
+//using System.Runtime.Remoting;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 using EasyHttp.Http.Abstractions;
@@ -157,9 +157,9 @@ namespace EasyHttp.Http.Injection
             throw new NotImplementedException();
         }
 
-        public ObjRef CreateObjRef(Type requestedType)
-        {
-            throw new NotImplementedException();
-        }
+        //public ObjRef CreateObjRef(Type requestedType)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Runtime.Remoting;
+//using System.Runtime.Remoting;
 using EasyHttp.Http.Abstractions;
 
 namespace EasyHttp.Http.Injection
@@ -72,9 +72,9 @@ namespace EasyHttp.Http.Injection
             throw new NotImplementedException("TODO");
         }
 
-        public ObjRef CreateObjRef(Type requestedType)
-        {
-            throw new NotImplementedException("TODO");
-        }
+        //public ObjRef CreateObjRef(Type requestedType)
+        //{
+        //    throw new NotImplementedException("TODO");
+        //}
     }
 }

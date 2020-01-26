@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Net.Cache;
 using System.Net.Security;
-using System.Runtime.Remoting;
+//using System.Runtime.Remoting;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 
@@ -72,6 +72,6 @@ namespace EasyHttp.Http.Abstractions
         void AddRange(string rangeSpecifier, long range);
         object GetLifetimeService();
         object InitializeLifetimeService();
-        ObjRef CreateObjRef(Type requestedType);
+        //ObjRef CreateObjRef(Type requestedType);
     }
 }
